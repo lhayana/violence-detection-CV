@@ -17,14 +17,6 @@ I used the [Violence Detection Dataset](https://github.com/airtlab/A-Dataset-for
 - Format: Videos organized by class and split into train, validation, and test sets
 - Preprocessing: Frames extracted and resized, with optional augmentation
 
-## Project Structure
-
-- `dataset_preprocessing/` – Frame extraction and dataset organization
-- `models/` – Model definitions and configurations
-- `training/` – Training loops, optimizers, early stopping, precision settings
-- `evaluation/` – Scripts for computing metrics and generating confusion matrices
-- `inference/` – Gradio-based interface for testing trained models
-
 ## Results
 
 The models were trained on the same dataset and evaluated on a held-out test set. The key performance metrics for the **positive class (violence)** are summarized below:
